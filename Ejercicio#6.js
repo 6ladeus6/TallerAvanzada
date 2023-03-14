@@ -4,7 +4,6 @@ let contarEdadRepetida = 0
 function contadorEdad(){
     let contarEdadRepetida = 0
     for (let index = 1; index < miarray.length; index++) {
-        const element = miarray[index];
         // console.log(element);
         if (miarray[index] == miarray[index+1]) {
             contarEdadRepetida ++
