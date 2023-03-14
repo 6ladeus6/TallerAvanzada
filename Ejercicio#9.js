@@ -10,13 +10,6 @@ function crearEstudiante(nombre,planeta,edad,estatura,clasificarEstudiante){
     },1000)
 }
 
-crearEstudiante("Pedro","Marte",14,1.86, function(edad){
-    
-
-    edad < 15 ? (
-        console.log("Manejo de la fuerza")      
-    ) : (
-        stop = true,
-        console.log("Manejo del sable de luz")
-    )
+crearEstudiante("Pedro","Marte",16,1.86, function(edad){
+    edad < 15 ? (console.log("Manejo de la fuerza")) : (console.log("Manejo del sable de luz"))
 })
