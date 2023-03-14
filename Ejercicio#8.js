@@ -16,6 +16,6 @@ let planetas = new Planetas(15).fill(crearPlaneta)
 crearPlaneta("Pluton",13,15,20,33,function(volumenPlaneta,nivelOxigeno){
     let sumarVolumenAgua = 0
     planeta.forEach(element => {
-        sumarVolumenAgua = planeta.volumenPlaneta + plane
+        sumarVolumenAgua = planeta.volumenPlaneta + planeta.sumarVolumenAgua
     });
 }) 
