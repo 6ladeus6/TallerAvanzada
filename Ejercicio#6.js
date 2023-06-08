@@ -1,10 +1,10 @@
 let miarray = Array.from({length: 20}, () => Math.floor(Math.random() * 10));
-let contarEdadRepetida = 0
+
 
 function contadorEdad(){
     let contarEdadRepetida = 0
     for (let index = 1; index < miarray.length; index++) {
-        // console.log(element);
+        console.log(miarray[index]);
         if (miarray[index] == miarray[index+1]) {
             contarEdadRepetida ++
         }
